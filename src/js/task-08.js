@@ -17,8 +17,8 @@ formToComplit.addEventListener('submit', e => {
     // textSubmit['email'] = email.value;
     // textSubmit['password'] = password.value;
     const textSubmit = {
-        ['email']: email.value,
-        ['password']: password.value,
+        email: email.value,
+        password: password.value,
     }
     e.currentTarget.reset();
     return console.log(textSubmit);;
