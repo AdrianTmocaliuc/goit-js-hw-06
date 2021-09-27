@@ -20,6 +20,6 @@ formToComplit.addEventListener('submit', e => {
         email: email.value,
         password: password.value,
     }
+    console.log(textSubmit);
     e.currentTarget.reset();
-    return console.log(textSubmit);;
-})
+}) 

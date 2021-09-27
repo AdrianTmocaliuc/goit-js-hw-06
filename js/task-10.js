@@ -13,7 +13,7 @@ const numberOfEl = document.querySelector('#controls input');
 const createBoxes = (amount) => {
   // amount = numberOfEl.value;
   let styleSize = 30;
-  for (let i = 0; i <= amount; i++) {
+  for (let i = 0; i < amount; i++) {
     let createDiv = document.createElement('div');
     createDiv.style.display = 'inline-block';
     createDiv.style.height = `${styleSize}px`;
